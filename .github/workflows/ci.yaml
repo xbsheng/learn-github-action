@@ -6,7 +6,7 @@ on:
 jobs:
   # 只需要定义一个job并命名为CI
   CI:
-    runs-on: centos-latest
+    runs-on: ubuntu-latest
     steps:
       # 拉取项目代码
       - name: Checkout repository
