@@ -44,6 +44,6 @@ jobs:
         # 通过前面章节定义的命令行执行代码扫描
         run: pnpm lint
       # 运行自动化测试
-      - name: Running Test
+      # - name: Running Test
         # 通过前面章节定义的命令行执行自动化测试
-        run: pnpm test
+        # run: pnpm test
